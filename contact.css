@@ -1,0 +1,263 @@
+* {
+    padding: 0 ;
+    margin:  0;
+}
+
+.section1 {                 /* section1 starts here */
+    background-color: #000000;
+    height: 100px;
+}
+
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 25px 0px;
+    align-items: center;
+    
+}
+
+#name:hover {
+  color: #1e90ff;
+   font-size: larger;
+
+}
+
+ul {
+    display: flex;
+    list-style-type: none; /* remove the dots from the list */
+    align-self: flex-end;
+    margin-left: 43%;
+ }
+
+ .NavBar a {
+     text-decoration: none;
+     color: #ffffff;
+     padding: 0px 15px;
+     
+ }
+
+ .NavBar a :hover {
+            color: #ffa500;
+         }
+
+ .NavBar .active {
+      color: #ffa500;
+ }
+
+ #cart-btn {
+            border: none;
+            padding: 8px 8px;
+            font-size: 15px;
+            background-color: #3c00ff;
+            color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-left: 1155px;
+            position: fixed;
+            margin-top: 100px;
+}
+
+#cart-btn:hover {
+    background-color: #6a00ff;
+}
+
+#cart-btn a {
+       text-decoration: none;
+       color: #ffffff;
+}
+
+  #cart-icon {
+       transition: transform 0.4s ease-in-out;
+       display: inline-flex;
+  }
+
+
+  #cart-btn:hover #cart-icon {
+              
+              animation: GoUp 0.5s ease-in-out;   
+         
+  }
+
+  @keyframes GoUp {
+       0% {transform: translateY(0);}
+       30% {transform: translateY(-10px);}
+       55% {transform: translateY(-4px);}
+       75% {transform: translateY(-8px);}
+       90% {transform: translateY(-2px);}
+       100% {transform: translateY(-6px);} 
+   }
+
+   #cart-btn:not(:hover) #cart-icon {
+         animation: GoDown 0.3s ease-in-out;
+    }
+
+    @keyframes GoDown {
+        0% {transform: translateY(-6px);}
+        100% {transform: translateY(0);}
+        
+    }
+
+    #customize-btn {
+            border: none;
+            padding: 8px 3px;
+            font-size: 15px;
+            background-color: #ffffff;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin-left: 1155px;
+            position: fixed;
+            margin-top: 155px;
+            
+  }
+
+  #customize-btn a {
+         text-decoration: none;
+         color: #000000;
+         
+  }
+
+  #customize-btn a:hover {
+          color: #0000ff; 
+  } 
+
+ /* section1 ends here */ 
+
+
+ .section7 {
+           height: 620px;
+           background-color: #ffffff;
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           grid-template-rows: auto auto;
+           gap: 10px;
+           width: 100%;
+      } 
+
+      .div16 {
+              margin-left: 40px; 
+              grid-column: 1;
+              grid-row: 1;
+              display: flex;
+              align-items: left;
+              justify-content: left;
+              margin-top: 2px;
+              
+      }
+
+      .div16 h1 {
+          font-size: 3rem;
+          line-height: 1.2;
+          text-align: left;
+          margin-top: 20px;
+      }
+
+      .div17 {
+           grid-column: 2;
+           grid-row: 1;
+           display: flex;
+           flex-direction: column;
+           gap: 10px;
+           justify-content: right;
+           margin-top: 40px;
+
+      }
+
+      .div17 input,textarea {
+          width: 500px;
+          height: 40px;
+          margin-left: 60px ;
+
+      } 
+
+      .div17 textarea{
+
+            width: 503px;
+            height: 120px;
+      }
+
+      .div17 button {
+            border: none;
+            font-weight: bolder;
+            font-size: 30px;
+            background-color: #ffa500;
+            border: 3px solid #ffa500;
+            width: 200px;
+            height: 60px;  
+            margin-left: 60px;   
+      }
+
+      .div17 a {
+        color: #000000;
+        text-decoration: none;
+      }
+
+  .div17 button:hover {
+         background-color: #ffffff;
+
+  }
+
+  .div17 a:hover {
+     color: #ffa500;
+  }
+
+      .div18 {
+           grid-column: 1;
+           grid-row: 2;
+           display: flex;
+           flex-direction: column;
+           gap: 1px;
+           justify-content: left;  
+      }
+
+      .div18 a {
+        margin-left:50px ;
+        line-height: 2;
+        font-size: larger;
+        font-weight: bold ; 
+        text-decoration: none;  
+      }
+
+      #call i{
+        font-size: larger;
+        color: #ff0000;
+      }
+
+      .whatsapp-icon i {
+        color: #008000;
+        font-size: larger;
+      }
+
+      .section8 {
+       height: 50px;
+       background-color: #ffffff;
+  }
+
+  .footer {
+           margin-left: 80px;
+           display: flex;
+           flex-direction: row; 
+  }
+
+  .footer p {
+     justify-items: left;
+     font-size: 15px;
+     margin-top: 15px;
+
+  }
+
+  .social-links a {
+    justify-items: flex-end;
+  }
+
+  .social-links i {
+    margin-left: 500px;
+  }
+
+  .social-links i {
+       font-size: 20px;
+       color: #0000ff;
+       margin-top: 15px;
+  }
