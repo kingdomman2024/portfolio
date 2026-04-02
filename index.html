@@ -192,9 +192,6 @@
     
     <section class="section8">
 
-            <label id="border5">_______________________________________________________________________________
-            </label>
-
         <footer class="footer">
             <label>Copyright © 2026 Designed By Ashungwa Cletus | Powered by NEXINCH</label>
 
@@ -205,6 +202,23 @@
                         </a>
             </div>
         </footer>
-    </section>  
+    </section> 
+      <script>
+        // Hamburger Menu Toggle
+        const hamburger = document.querySelector('.hamburger');
+        const navbarLinks = document.querySelector('.navbar-links');
+
+        hamburger.addEventListener('click', function() {
+            navbarLinks.classList.toggle('active');
+        });
+
+        // Close menu when a link is clicked
+        const navLinks = document.querySelectorAll('.navbar-links a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', function() {
+                navbarLinks.classList.remove('active');
+            });
+        });
+    </script> 
 </body>
 </html>
