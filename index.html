@@ -1,61 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="HOME.css">
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="update.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-    <title>HOME</title>
+    <title>Home</title>
 </head>
 <body>
 
     <section class="section1">
             
-        <div class="NavBar">
-            <a href="about-me.html" id="name">ASHUNGWA <br>CLETUS</a>
-            <ul> 
-            <a href="index.html"  class="active"><li>HOME</li></a>
-            <a href="about-me.html"><li>ABOUT ME</li></a>
-            <a href="portfolio.html"><li>PORTFOLIO</li></a>
-            <a href="contact.html"><li>CONTACT</li></a>
+        <header>
+        <nav class="navbar">
+            <div class="logo">ASHUNGWA <br>CLETUS</div>
+            <ul class="navbar-links"> 
+            <li><a href="index.html" class="active">HOME</a></li>
+            <li><a href="about-me.html">ABOUT ME</a></li> 
+            <li><a href="portfolio.html">PORTFOLIO</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
             </ul>
+
+        <!--Hamburger Icon-->
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+          </nav>
+
+        <div class="side-btn">
+            <button class="buy-btn"><i class="fa fa-shopping-cart" id="cart-btn"></i> Buy Now</button> 
+            <button class="customize-btn"><i class="fa fa-palette"></i> Customize</button>
         </div>
 
-        <div class="div1">
-            <button id="cart-btn"><a href=""><span id="cart-icon">🛒</span> Buy Now</a></button>
-            <button id="customize-btn"><a href="" >🎨 Customize</a></button>
+        <div class="intro">
+            <h1>This Is My First And Complete Website I Am Building From Scratch To Test 
+                If I Am Getting It At All Or Not</h1>
+            <a href="portfolio.html" class="port-btn">PORTFOLIO</a>
         </div>
-
-        
-        <div class="div2">
-            <p id="para1">This Is My First And Complete Website I Am Building From Scratch To Test 
-                If I Am Getting It At All Or Not
-            </p>
-            <button><a href="portfolio.html" id="port-btn">PORTFOLIO</a></button>
-        </div>
-        
+        </header>    
     </section>
 
     <section class="section2">
-        <div class="div3">
-            <h3>
+
+        <div class="left-column">
+
               <h1>I'm Ashungwa Cletus, an intern working with NEXINCH BAMENDA.<br> 
                 I am an aspiring future backend Engineer</h1>
 
-                <label>
-
+               <p>
                 At NEXINCH, perfection is made and that is why i believe the Lord God<br> 
                 directed me there. Enginner Samuel and Miss Paola have been great with<br> 
                 building us with the skills of HTML and Css. "Being a good 
                 Software Developer is the <b>EXPECTED HEIGHT.</b>
-            </label>
+               </p>
 
-            <button><a href="contact.html" id="contact-btn">CONTACT ME</a></button>
+               <a href="contact.html" class="contact-btn">CONTACT ME</a>
  
         </div>
 
-        <div class="div4">
-            <label><b>GOAL: "To Be A Good Developer In My Generation" </b></label>
+        <div class="photo">
+            <label>GOAL: "To Be A Good Developer In My Generation"</label>
             <img src="Me.jpg">
             
         </div>
@@ -63,117 +69,117 @@
 
     <section class="section3">
 
-         <div class="div5">
             <img src="0006.jpg">
-         </div>
+
     </section>
 
     <section class="section4">
 
-        <div class="div6">
-            <h2 id="tag">My Journey As A Future<br> Backend Engineer Began Here</h2>
-            <a href="" id="ser">MY SERVICES <span>↗️</span></a>
-        </div>
+        <div class="part1">
+        <div class="left-grid">
 
-        <div class="div7">
-           <span id="line">_________</span>
-             <a href="" id="link">PLEASE READ ↗️</a>
-            
-        </div>
+            <h1>My Journey As A Future<br> Backend Engineer Began Here</h1>
 
-        <div class="div8">
-            <p id="para2">
+            <label>_________</label>
+
+            <p>
                 The Journey just started, though it's tough.<br> However, i
                  believe in what i have seen ahead.<br>Thus, i keep pushing because 
                  i know i shall make<br> it by the help of the Lord Jesus
-            </p>
-            <a href="" id="link1">My ASPIRATIONS ↗️</a>
-        </div>          
+            </p>   
+        </div>
+
+        <div class="right-grid">
+
+            <a href="" id="ser">MY SERVICES ↗️</a>
            
-        <div class="div9">
+            <a href="" id="link">PLEASE READ ↗️</a>
+
+            <a href="" id="link1">My ASPIRATIONS ↗️</a>
+            
+        </div>
+    </div>
+           
+        <div class="part2">
             <img src="picture1.jpg">
             <img src="picture2.jpg">
             <img src="picture3.jpg">
         </div>
 
-        <h1 id="std-alone">HOW IT ALL STARTED</h1>
+            <h1 id="std-alone">HOW IT ALL STARTED</h1>
 
-        <div class="div10">
-            <label id="lab1">It Started At NEXINCH</label>
+        <div id="p1">
+            <label id="label1">It Started At NEXINCH</label>
             <h2>LEARNING HTML and Css</h2>
-            <label id="lab2">Feb 24---March 21</label>
-        </div>
-        <label id="bord1">_______________________________________________________________________________
-        </label> 
-
-        <div class="div11">
-            <label id="lab3">Looking Forward To Our Next Internship</label>
+            <label id="label2">Feb 24---March 21</label>
+        </div><br>
+            <label id="border1">_______________________________________________________________________________
+            </label><br>
+        <div id="p2">
+            <label id="label3">Looking Forward To Our Next Internship</label>
             <h2>NEXINCH Makes It Blissful </h2>
-            <label id="lab4">Second Semester</label>
-        </div>
-        <label id="bord2">_______________________________________________________________________________
-
-        </label>
-
-        <div class="div12">
-            <label id="lab5">First Week At NEXINCH</label>
+            <label id="label4">Second Semester</label>
+        </div><br>
+            <label id="border2">_______________________________________________________________________________
+            </label><br>
+        <div id="p3">
+            <label id="label5">First Week At NEXINCH</label>
             <h2>Best Intern Of The Week</h2>
-            <label id="lab6">I Got A Price😊</label>
-        </div>
-        <label id="bord3">_______________________________________________________________________________
-
-        </label>
-
-        <div class="div13">
-            <label id="lab7">First Semester</label>
+            <label id="label6">I Got A Price😊</label>
+        </div><br>
+            <label id="border3">_______________________________________________________________________________
+            </label><br>
+        <div id="p4">
+            <label id="label7">First Semester</label>
             <h2>In School Was Tough</h2>
-            <label id="lab8">But The Results Was Top-Notch</label>
-        </div>
-        <label id="bord4">_______________________________________________________________________________
-
-        </label>
+            <label id="label8">But The Results Was Top-Notch</label>
+        </div><br>
+            <label id="border4">_______________________________________________________________________________
+            </label><br>      
     </section>
 
     <section class="section5">
-
-        <div class="div13">
             <span>
-                <label id="math">∫6x dx</label>
+            <label id="math">∫6x dx</label>
             </span>
-        </div>
-
-        <div class="div14">
+        <div class="flex-box">
             <h1>We Are The Future FULL-Stack Developer In The Making, Undergoing Our First
                 Training Course. There's Alot To Learn In A Very Short Time, But It's 
                 very Interesting Seeing How Well Am Getting Along. Slowly But Surely!
             </h1>
-            <div class="label">
+
+            <div class="text-label">
                 <label>The Word Of GOD</label>
-                <label id="label-2">My Foundation</label> 
+                <label id="fnd">My Foundation</label>
+            </div> 
         </div>
     </section>
 
     <section class="section6">
-        <div class="div15">
-            <img src="bus.jpg">
-            
-        </div>   
+
+
+           <span><img src="bus.jpg"></span>
+
     </section>
+
+           
+    
 
     <section class="section7">
 
-        <div class="div16">
+        <div class="talk-to-us">
             <h1>We Can Build Your Website. Contact Us<br>Through Email Or Call.</h1>
-        </div>
 
-        <div class="div17">
+        </div>    
+      
+        <form action="submit">
             <input type="text" placeholder="Full Name">
             <input type="text" placeholder="Email">
             <textarea placeholder="Type Your Message Here"></textarea>
-            <button><a href="">SUBMIT</a></button>
-        </div>
+            <button type="button"><a href="">SUBMIT</a></button>
+        </form>
 
-        <div class="div18">
+        <div class="relate-us">
             <a href="mailto:kelvinnewman25@gmail.com">
                 <i class="fa fa-envelope"></i>: Email Us</a>
             <a href="tel:+237650911463/+237693732791" id="call">
@@ -182,14 +188,16 @@
             <a href="https://wa.me/620013213" target= "_blank" class="whatsapp-icon">
             <i class= "fab fa-whatsapp"></i>: Chat With Us</a>
         </div>
-    </section> 
+    </section>
+    
     <section class="section8">
-        <Div class="div20">
-            <label id="bord5">_______________________________________________________________________________
 
-        </label>
+            <label id="border5">_______________________________________________________________________________
+            </label>
+
         <footer class="footer">
-            <p>Copyright © 2026 Designed By Ashungwa Cletus | Powered by NEXINCH</p>
+            <label>Copyright © 2026 Designed By Ashungwa Cletus | Powered by NEXINCH</label>
+
             <div class="social-links">
                 <a href="https://www.linkedin.com/in/ashungwa-cletus" target="_blank"
                          aria-label="linkedin">
@@ -197,9 +205,6 @@
                         </a>
             </div>
         </footer>
-        </Div>
-
-    </section>
-    
+    </section>  
 </body>
 </html>
