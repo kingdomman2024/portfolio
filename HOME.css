@@ -86,7 +86,7 @@ header {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    right: 15px;
+    right: 0;
     top: 100px;
     z-index: 100;
 }
@@ -611,7 +611,7 @@ form a:hover {
     }
 
     .side-btn {
-        right: 10px;
+        right: 0;
         top: 80px;
         gap: 8px;
     }
@@ -738,7 +738,7 @@ form a:hover {
     }
 
     .side-btn {
-        right: 5px;
+        right: 0;
         top: 70px;
         gap: 5px;
     }
