@@ -9,7 +9,7 @@ body {
     overflow-x: hidden;
 }
 
-/* ============ SECTION 1 - HEADER & NAVBAR ============ */
+/* SECTION 1 - HEADER & NAVBAR */
 
 header {
     background-color: #000;
@@ -148,7 +148,9 @@ header {
     transition: 0.3s ease;
 }
 
-/* ============ SECTION 2 - ABOUT ME ============ */
+/* section1 ends here*/
+
+/* SECTION 2*/
 
 .section2 {
     background-color: #ffffff;
@@ -218,7 +220,9 @@ header {
     border-radius: 5px;
 }
 
-/* ============ SECTION 3 - FULL WIDTH IMAGE ============ */
+/*section2 ends here*/
+
+/* SECTION 3 - FULL WIDTH IMAGE */
 
 .section3 {
     width: 100%;
@@ -232,8 +236,9 @@ header {
     display: block;
     object-fit: cover;
 }
+/*section3 ends here*/
 
-/* ============ SECTION 4 - JOURNEY ============ */
+/* SECTION 4 - JOURNEY */
 
 .section4 {
     background-color: #ffffff;
@@ -352,8 +357,9 @@ header {
     border: none;
     padding: 0;
 }
+/*section4 ends here*/
 
-/* ============ SECTION 5 - QUOTE ============ */
+/*SECTION 5 - QUOTE */
 
 .section5 {
     background-color: #000000;
@@ -401,13 +407,15 @@ header {
 
 .text-label label {
     font-size: 1rem;
+    text-align: right;
 }
 
 #fnd {
     font-style: italic;
 }
+/*section5 ends here*/
 
-/* ============ SECTION 6 - IMAGE ============ */
+/*SECTION 6 - IMAGE */
 
 .section6 {
     width: 100%;
@@ -425,8 +433,9 @@ header {
     display: block;
     object-fit: cover;
 }
+/*section6 ends here*/
 
-/* ============ SECTION 7 - CONTACT FORM ============ */
+/*SECTION 7 - CONTACT FORM */
 
 .section7 {
     background-color: #ffffff;
@@ -530,8 +539,9 @@ form a:hover {
 .whatsapp-icon i {
     color: #008000;
 }
+/*section7 ends here*/
 
-/* ============ SECTION 8 - FOOTER ============ */
+/* SECTION 8 - FOOTER */
 
 .section8 {
     background-color: #ffffff;
@@ -567,10 +577,11 @@ form a:hover {
 .social-links a:hover {
     color: #6a00ff;
 }
+/*section8 ends here*/
 
-/* ============ RESPONSIVE DESIGN ============ */
+/* CODE FOR RESPONSIVENESS */
 
-/* Tablets (768px and below) */
+/* For Tablets (768px and below) */
 @media (max-width: 768px) {
     header {
         padding-bottom: 20px;
@@ -716,7 +727,7 @@ form a:hover {
     }
 }
 
-/* Mobile (480px and below) */
+/* For Mobile (480px and below) */
 @media (max-width: 480px) {
     .navbar {
         padding: 12px 2%;
@@ -862,7 +873,7 @@ form a:hover {
     }
 }
 
-/* Extra Small Devices (320px) */
+/* For Extra Small Devices (320px) */
 @media (max-width: 320px) {
     .logo {
         font-size: 0.9rem;
